@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add some styles for better visibility */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      height: 500px;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+    }
+  </style>
+  <title>Scroll to Section Example</title>
+</head>
+<body>
+
+  <section id="section1">
+    <h2>Section 1</h2>
+    <p>This is the first section.</p>
+  </section>
+
+  <section id="section2">
+    <h2>Section 2</h2>
+    <p>This is the second section.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Section 3</h2>
+    <p>This is the third section.</p>
+  </section>
+
+  <button onclick="scrollToSection('section2')">Scroll to Section 2</button>
+
+  <script>
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+</body>
+</html>
