@@ -18,13 +18,32 @@ h6 {
   /* font-weight: 700 !important; */
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .navbar {
   height: 100px;
   transition: height 0.3s linear;
 }
 .navbar-scrolled {
   height: 65px;
-  background-color: rgb(20 28 63 / 79%) !important;
+  background-color: #164863c9 !important;
   transition: height 0.3s linear;
   backdrop-filter: blur(6px);
 }
@@ -49,10 +68,11 @@ h6 {
   margin-bottom: 2rem;
 }
 #features {
-  background: url("../images/landing-page/Zero-ones.png") no-repeat;
-  background-position: center; /* Center the image */
-  background-size: cover;
-  background-color: #f4f7f9;
+  /* background: url("../images/landing-page/Zero-ones.png") no-repeat; */
+  /* background-position: center; Center the image */
+  /* background-size: cover; */
+  background-color: #ffffff;
+  padding: 120px 0px;
 }
 #features .feature-item h4 {
   font-weight: bold;
@@ -164,13 +184,13 @@ h6 {
   margin-bottom: 2rem;
 }
 #financial-services {
-  background-color: #e1e9ef;
+  background-color: #427d9d;
 }
 #financial-services .card-image {
   height: 25rem;
 }
 #contact-us {
-  background-color: #171d33;
+  background-color: #427d9d !important;
 }
 #contact-us .contact-color {
   color: #b6b5b5;
@@ -748,3 +768,124 @@ display: none !important;
 #map {
   height: 180px;
 }
+.custom-shape-divider-bottom-1704891844 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.custom-shape-divider-bottom-1704891844 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 208px;
+}
+
+.custom-shape-divider-bottom-1704891844 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1704892743 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.custom-shape-divider-top-1704892743 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 208px;
+}
+
+.custom-shape-divider-top-1704892743 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1705072827 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1705072827 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 155px;
+  bottom: -1px;
+}
+
+.custom-shape-divider-bottom-1705072827 .shape-fill {
+  fill: #427d9d;
+}
+
+.custom-shape-divider-bottom-1705075057 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1705075057 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-bottom-1705075057 .shape-fill {
+  fill: #ffffff;
+}
+
+.service-card-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  overflow-y: scroll;
+  padding: 0px 6px;
+}
+.service-card-items .service-card-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+/*  */
+
+.custom-shape-divider-bottom-0202030302030 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-0202030302030 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 155px;
+  bottom: -1px;
+}
+
+.custom-shape-divider-bottom-0202030302030 .shape-fill {
+  fill: #ffffff;
+}
+/*  */

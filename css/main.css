@@ -11,7 +11,7 @@ Author URL: http://shapebootstrap.net
 body {
   /*padding-top: 100px;*/
   background: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #64686d;
   line-height: 26px;
@@ -22,8 +22,6 @@ body {
   border-color: #e7e7e7;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -31,7 +29,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #272727;
 }
 a {
@@ -176,7 +174,7 @@ ul.nostyle i {
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-   /* background: rgba(255, 255, 255, 0.9);*/
+    /* background: rgba(255, 255, 255, 0.9);*/
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
@@ -628,9 +626,24 @@ ul.nostyle i {
 .divider {
   margin-top: 50px;
   margin-bottom: 50px;
-  background-image: -moz-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
-  background-image: -webkit-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
-  background-image: -ms-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
+  background-image: -moz-linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #e3e3e3 49%,
+    #ffffff 100%
+  );
+  background-image: -webkit-linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #e3e3e3 49%,
+    #ffffff 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #e3e3e3 49%,
+    #ffffff 100%
+  );
   width: 95%;
   height: 1px;
 }
@@ -918,7 +931,7 @@ ul.nostyle i {
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  background: #000000;
+  background: #164863;
 }
 #footer a {
   color: #fff;
