@@ -72,7 +72,7 @@ h6 {
   /* background-position: center; Center the image */
   /* background-size: cover; */
   background-color: #ffffff;
-  padding: 120px 0px;
+  padding: 20px 0px;
 }
 #features .feature-item h4 {
   font-weight: bold;
@@ -174,10 +174,10 @@ h6 {
 #choose-us .img-title {
   font-weight: bold;
 }
-/* #about-us .item-img{
+/* #contact-us .item-img{
   position: relative;    top: 20px; 
  } */
-#about-us .img-title {
+#contact-us .img-title {
   font-size: x-large;
   font-weight: bold;
   color: #3498db;
@@ -189,59 +189,59 @@ h6 {
 #financial-services .card-image {
   height: 25rem;
 }
-#contact-us {
+#location {
   background-color: #427d9d !important;
 }
-#contact-us .contact-color {
+#location .contact-color {
   color: #b6b5b5;
 }
-#contact-us .item {
+#location .item {
   align-items: center;
   /* margin-bottom: 1rem; */
 }
-#contact-us .site-map .item {
+#location .site-map .item {
   margin-bottom: 4px;
   transition: padding-left 0.3s ease;
   cursor: pointer;
 }
-#contact-us .site-map .item:hover {
+#location .site-map .item:hover {
   margin-bottom: 4px;
   padding-left: 10px;
 }
-#contact-us .item h5 {
+#location .item h5 {
   padding-left: 2px;
   font-size: 1rem;
   margin: 0px;
 }
 
-#contact-us .contact-info .item h5 {
+#location .contact-info .item h5 {
   padding-left: 10px;
   font-size: 12px;
   margin: 0px;
 }
-#contact-us .contact-info .item svg {
+#location .contact-info .item svg {
   width: 17px;
 }
-#contact-us .input-container {
+#location .input-container {
   position: relative;
   width: 300px; /* Adjust the width as needed */
 }
 
 /* Style for the input field */
-#contact-us .input-container input {
+#location .input-container input {
   background-color: #a9a2a2;
   width: 100%;
   padding-right: 40px; /* Adjust the padding to make space for the button */
 }
 
 /* Style for the button */
-#contact-us .input-container button {
+#location .input-container button {
   position: absolute;
   top: 3px;
   right: 5px;
   height: 80%;
 }
-#contact-us .input-container input::placeholder {
+#location .input-container input::placeholder {
   color: black; /* Replace with your desired color */
   /* padding-left: 8px; */
 }
@@ -341,8 +341,8 @@ h6 {
   fill: #171d33;
 }
 
-/* about-us-bottom-wave */
-.about-us-bottom-wave {
+/* contact-us-bottom-wave */
+.contact-us-bottom-wave {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -499,7 +499,7 @@ h6 {
     margin-top: 4rem !important;
   }
 }
-#contact-us {
+#location {
   background-image: url("../images/landing-page/Footer/globe.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -570,7 +570,7 @@ h6 {
   }
 }
 /* @media (max-width: 768px) {
-  #contact-us .input-container input::placeholder {
+  #location .input-container input::placeholder {
       font-size: 8px;
     }
 }
@@ -724,14 +724,14 @@ h6 {
   pointer-events: none;
 } */
 
-.financial-services-space-between-cols {
+/* .financial-services-space-between-cols {
   --bs-gutter-x: 3rem !important;
 }
 @media (max-width: 576px) {
   .financial-services-space-between-cols {
     --bs-gutter-x: 0rem !important;
   }
-}
+} */
 /* .wave-small-screens{
 display: none !important;
 }
