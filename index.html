@@ -375,7 +375,7 @@
     </header>
 
     <section id="main-slider" style="position: relative">
-      <div class="custom-shape-divider-bottom-1704891844">
+      <div class="custom-shape-divider-bottom-1705101740">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -383,32 +383,12 @@
           preserveAspectRatio="none"
         >
           <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
             class="shape-fill"
           ></path>
         </svg>
       </div>
 
-      <!-- <div style="position: absolute; left: 1rem; bottom: 10%; z-index: 1">
-        <div class="scroll-down-image" style="">
-          <div
-            style="
-              font-size: small;
-              color: #bebbbb;
-              padding-bottom: 5px;
-              transform: rotate(90deg);
-            "
-          >
-            scroll down
-          </div>
-          <div style="margin-top: 3rem; height: 20rem; width: 3rem">
-            <img
-              src="./images/landing-page/mouse.png"
-              style="width: 100%; height: 100%"
-            />
-          </div>
-        </div>
-      </div> -->
       <!-- Carousel container -->
       <div
         id="my-pics"
@@ -430,6 +410,15 @@
             class="item active"
             style="background-image: url(images/slider/bg2.jpg)"
           >
+            <div
+              style="
+                background-color: #427d9d7d;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: 1;
+              "
+            ></div>
             <div class="slider-inner">
               <div class="container">
                 <div class="row">
@@ -471,14 +460,6 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div
-            class="item"
-            style="background-image: url(images/slider/bg2.jpg)"
-          >
-            <!-- <img src="images/slider/bg1.jpg" alt="Rob Roy Glacier" /> -->
           </div>
         </div>
 
@@ -610,10 +591,10 @@
       id="financial-services"
       style="
         position: relative;
-        /* background-image: url('./images/landing-page/bubles.svg'); */
+        background-image: url('./images/landing-page/Random-pattern.svg');
       "
     >
-      <div class="custom-shape-divider-top-1704892743">
+      <div class="custom-shape-divider-top-1705102665">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -639,7 +620,7 @@
           ></path>
         </svg>
       </div>
-      <div class="container" style="padding: 250px 0px">
+      <div class="container" style="padding-top: 250px; padding-bottom: 250px">
         <div class="row text-center">
           <div class="col-sm-12">
             <h4
@@ -661,20 +642,11 @@
                 margin: auto;
               "
             />
-            <!-- <p
-              data-aos="fade-up"
-              data-aos-offset="0"
-              data-aos-duration="1500"
-              style="font-size: 16px; margin-top: 1rem; color: #615f5f"
-            >
-              We give you a glance into the best experience in the market,
-              through our blogs you can discove more...<br />
-              Looking always to share our experience with you ...
-            </p> -->
           </div>
         </div>
         <div
-          class="row mt-5 ps-2 pe-2 ps-md-0 pe-md-0 gy-4 financial-services-space-between-cols"
+          style="display: flex; justify-content: center"
+          class="row mt-5 ps-2 pe-2 ps-md-0 pe-md-0 gy-4"
         >
           <div
             data-aos="fade-up"
@@ -716,6 +688,22 @@
                   </div>
                   <div class="service-card-item">
                     <div>Preventive maintenance.</div>
+                  </div>
+                </div>
+                <h5
+                  class="card-title mt-2 mb-4 fw-bold text-center"
+                  style="font-size: large; color: #6f6969"
+                >
+                  Standard Washout (Trailer)
+                </h5>
+                <div class="service-card-items">
+                  <div class="service-card-item">
+                    <div>Reef/Dry Box trailer</div>
+                    <div>$40</div>
+                  </div>
+                  <div class="service-card-item">
+                    <div>Straight Truck</div>
+                    <div>$28</div>
                   </div>
                 </div>
               </div>
@@ -804,7 +792,7 @@
               </div>
             </div>
           </div>
-          <div
+          <!-- <div
             data-aos="fade-up"
             data-aos-offset="0"
             data-aos-duration="1500"
@@ -838,7 +826,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div
             data-aos="fade-up"
             data-aos-offset="0"
@@ -1038,42 +1026,80 @@
         </svg>
       </div>
       <div class="container" style="padding-bottom: 20rem">
-        <div class="row">
-          <div class="wow fadeInLeft col-sm-7">
+        <div class="row text-center" style="margin-bottom: 35px">
+          <div class="col-sm-12">
             <h4
-              class=""
+              data-aos="fade-up"
+              data-aos-offset="0"
+              data-aos-duration="1500"
               style="color: #427d9d; font-size: x-large; font-weight: bold"
+              class="aos-init aos-animate"
             >
               CONTACT US
             </h4>
-            <div>
-              <hr
-                style="
-                  opacity: 1;
-                  min-width: 150px;
-                  height: 2px;
-                  color: #45aed6;
-                  width: 30%;
-                "
-              />
-            </div>
-            <div
-              style="row-gap: 20px"
-              class="h-100 d-flex flex-column justify-content-center text-white fs-3"
-            >
-              <div style="color: #427d9d; display: flex; align-items: baseline">
-                <i class="bi bi-whatsapp fs-1"></i>
-                <label style="margin-left: 15px">+972592254863</label>
-              </div>
-              <div style="color: #427d9d; display: flex; align-items: baseline">
-                <i class="bi bi-envelope fs-1"></i>
-                <label style="margin-left: 15px">info@dash-mansters.com</label>
-              </div>
-              <div style="color: #427d9d; display: flex; align-items: baseline">
-                <i class="bi bi-geo-alt fs-1"></i>
-                <label style="margin-left: 15px"
-                  >Hardrock rd 3029 75050 Grand Prairie, TX</label
+
+            <hr
+              style="
+                opacity: 1;
+                height: 2px;
+                min-width: 200px;
+                color: #45aed6;
+                width: 14%;
+                margin: auto;
+              "
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="wow fadeInLeft col-sm-7">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div
+                  style="
+                    text-align: center;
+                    font-size: large;
+                    color: #427d9d;
+                    flex-direction: column;
+                    display: flex;
+                    align-items: center;
+                    row-gap: 10px;
+                  "
                 >
+                  <i class="bi bi-whatsapp" style="font-size: 60px"></i>
+                  <label>+972592254863</label>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div
+                  style="
+                    text-align: center;
+                    font-size: large;
+                    color: #427d9d;
+                    flex-direction: column;
+                    display: flex;
+                    align-items: center;
+                    row-gap: 10px;
+                  "
+                >
+                  <i class="bi bi-envelope" style="font-size: 60px"></i>
+                  <label>info@dash-mansters.com</label>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div
+                  style="
+                    text-align: center;
+                    font-size: large;
+                    color: #427d9d;
+                    flex-direction: column;
+                    display: flex;
+                    align-items: center;
+                    row-gap: 10px;
+                  "
+                >
+                  <i class="bi bi-geo-alt" style="font-size: 60px"></i>
+                  <label>Hardrock rd 3029 75050 Grand Prairie, TX</label>
+                </div>
               </div>
             </div>
           </div>
@@ -1090,6 +1116,7 @@
     </section>
 
     <section id="location">
+      <div class="dots-image"></div>
       <div class="container pt-5 pb-5">
         <div class="row gy-5">
           <div
@@ -1128,15 +1155,15 @@
               style="row-gap: 20px"
               class="h-100 d-flex flex-column justify-content-center text-white fs-1"
             >
-              <div>
+              <div style="cursor: pointer">
                 <i class="bi bi-facebook"></i>
                 <label style="margin-left: 15px">Facebook</label>
               </div>
-              <div>
+              <div style="cursor: pointer">
                 <i class="bi bi-instagram"></i>
                 <label style="margin-left: 15px">Instagram</label>
               </div>
-              <div>
+              <div style="cursor: pointer">
                 <i class="bi bi-youtube"></i>
                 <label style="margin-left: 15px">Youtube</label>
               </div>
