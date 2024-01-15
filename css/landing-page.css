@@ -43,7 +43,7 @@ h6 {
 }
 .navbar-scrolled {
   height: 65px;
-  background-color: #164863c9 !important;
+  background-color: #164863 !important;
   transition: height 0.3s linear;
   backdrop-filter: blur(6px);
 }
